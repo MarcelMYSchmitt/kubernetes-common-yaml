@@ -1,4 +1,4 @@
-{{ if .Values.application.istio.enablyByYaml }}
+{{ if .Values.application.istio.enableByYaml }}
 apiVersion: v1
 kind: Namespace
 metadata:
