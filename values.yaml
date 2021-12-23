@@ -1,0 +1,13 @@
+application:
+  pullSecret:
+    name: pull-secret
+    secretIsBase64: true
+    dockerconfig: your_own_dockerconfigjson
+  istio:
+    enableByYaml: false
+    namespace: your_own_namespace
+    isolation: enabled
+    mtls: 
+      enabled: true
+      name: mtls-policy
+      mode: STRICT

@@ -1,0 +1,8 @@
+{{ if .Values.application.istio.enablyByYaml }}
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{ .Values.application.istio.namespace }}
+  labels:
+    istio-injection: {{ .Values.application.istio.isolation }}
+{{ end }}

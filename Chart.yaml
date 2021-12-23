@@ -1,0 +1,9 @@
+apiVersion: v2
+name: kubernetes-common-yaml
+description: Contains all common objects for setting up infrastructure and application configurations in Kubernetes namespaces. 
+version: 1.0.0
+appVersion: 1.0.0
+maintainers:
+  - name: Marcel Schmitt
+    mail: marcel.schmitt@schmittformatik.de
+    
